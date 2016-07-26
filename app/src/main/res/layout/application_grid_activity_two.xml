@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:numColumns="3"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:longClickable="true">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextFind"
+        android:hint="@string/hint_serch_text"
+        android:inputType="textFilter" />
+
+    <GridView
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="3"
+        android:clickable="true"
+        android:longClickable="true"
+        android:choiceMode="multipleChoice"
+        android:textFilterEnabled="true"
+        android:stackFromBottom="false"
+        android:smoothScrollbar="false"
+        android:scrollIndicators="right"
+        android:nestedScrollingEnabled="true"
+        android:listSelector="@android:drawable/button_onoff_indicator_on"
+        android:transitionGroup="false"
+        android:background="#FF33B5E5"
+        android:paddingLeft="10dp"
+        android:verticalSpacing="20dp"
+        android:scrollingCache="false"
+        android:layout_gravity="center_vertical"
+        android:foregroundGravity="center_vertical|center_horizontal">
+    </GridView>
+
+
+</LinearLayout>

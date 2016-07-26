@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="layout_columnWeight">"1"</string>
+    <string name="number_set_default">"380672161111"</string>
+    <string name="hint_serch_text">"Software Search by name"</string>
+
+        <item type="id" name="id_buttonCall"/>
+        <item type="id" name="id_buttonProgramm" />
+        <item type="id" name="id_buttonSMS" />
+
+</resources>
